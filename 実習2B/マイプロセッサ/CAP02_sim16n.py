@@ -182,26 +182,29 @@ cpu = cpu16n(m)  # Make a cpu and connect it to the memory
 
 # First pass of assmbling
 L0 = 0
-m.ADD(0,1)  # R0 = R0+R1
-m.SUB(0,0)  # R0 = 0
-m.LDI(1,10) # R1 = 10
-m.LDI(2,1)  # R2 = 1
-m.SUB(3, 3)  # R3 = 0
+# m.ADD(0,1)  # R0 = R0+R1
+# m.SUB(0,0)  # R0 = 0
+# m.LDI(1,10) # R1 = 10
+# m.LDI(2,1)  # R2 = 1
+# m.SUB(3, 3)  # R3 = 0
 
-m.REM(4,8)
-m.MUL(4,8)
-m.DIV(4,8)
+m.LDI(3,2) # R3 = 2
+m.LDI(4,4) # R4 = 4
+m.MUL(3,4) # R3 * R4 = 8
+m.DIV(4,3) # R4 / R3 = 2
+m.REM(4,3) # R4 % R3 = 0
 
-L0 = m.addr # Label L0:
-m.ADD(0,1)  # R0 = R0+R1
-m.SUB(1,2)  # R1 = R1-1
-m.CMP(3,1)  # if 0 < R1
+# L0 = m.addr # Label L0:
+# m.ADD(0,1)  # R0 = R0+R1
+# m.SUB(1,2)  # R1 = R1-1
+# m.CMP(3,1)  # if 0 < R1
 m.BC(L0-m.addr)  # Then branch to L0
 m.BRA(0)  # Endless loop
 
-print("Generated code: 0 - %02x"%(m.addr-1))
-for i in range(m.addr//2):
-    print("%02x"%(i*2),"%04x"%m.mem[i])
+# print("Generated code: 0 - %02x"%(m.addr-1))
+# for i in range(m.addr//2):
+#     print("%02x"%(i*2),"%04x"%m.mem[i])
+#     print("%02d"%(i*2),"%04d"%m.mem[i])
 
 print("\nRun code from 0:")
 for i in range(13):
