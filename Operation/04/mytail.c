@@ -1,40 +1,55 @@
 #include <stdio.h>
-#include <string.h>
+
+struct queue
+{
+    char data[125];
+    int head;
+    int tail;
+};
+
+void initialize(struct queue *q, int N)
+{
+    int i;
+
+    q->head = 0;
+    q->tail = 0;
+    for (i = 0; i < N; ++i)
+    {
+        q->data[i] = ' ';
+    }
+}
+
+void enqueue(struct queue *q, int item, int N)
+{
+    if (q->tail >= N)
+    {
+        printf("This queue is full! \n");
+    }
+    else
+    {
+        q->data[q->tail] = item;
+        q->tail++;
+    }
+}
+
+int dequeue(struct queue *q)
+{
+    int tmp;
+
+    if (q->head == q->tail)
+    {
+        return -1;
+    }
+    else
+    {
+        tmp = q->data[q->head];
+        q->head++;
+        return tmp;
+    }
+}
 
 int main(int argc, char const *argv[])
 {
-    const char *n = argv[1];   // -n
-    const char *num = argv[2]; // 3
-    int line = 0;
-    const char *arv = "-n";
-    printf("%s ", n);
-    printf("%s\n", num);
-
-    // if (strcmp(n, arv)) {
-    //     return 0;
-    // }
-    FILE *fp = stdin;
-    int BUF_SIZE = 256;
-    char buf[BUF_SIZE];
-    fpos_t pos;
-    fgetpos(fp, &pos);
-    printf("ファイル位置は %dです\n", pos);
-    for (int i = 1; fgets(buf, sizeof(BUF_SIZE), fp); i++)
-    {
-        line++;
-    }
-    fgetpos(fp, &pos);
-    printf("ファイル位置は %dです\n", pos);
-    rewind(fp);
-    fgetpos(fp, &pos);
-    printf("ファイル位置は %dです\n", pos);
-    for (int i = 1; fgets(buf, sizeof(buf), fp); i++)
-    {
-        printf("%s", buf);
-        if (line - i < 4)
-        {
-        }
-    }
-    printf("line : %d\n", line);
+    /* code */
     return 0;
 }
