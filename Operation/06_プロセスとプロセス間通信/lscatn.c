@@ -29,7 +29,11 @@ int main()
         close(STDOUT_FILENO);
         dup2(pipefd[1], STDOUT_FILENO);
 
-        char *cmd[] = {"ls", "-al", NULL};
+        // char *cmd[] = {"ls", "-al", NULL};
+        char *cmd[9];
+        cmd[0] = "ls";
+        cmd[1] = "-al";
+        cmd[2] = NULL;
         execvp(cmd[0], cmd);
     }
     else
