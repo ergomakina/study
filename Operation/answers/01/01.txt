@@ -1,0 +1,9 @@
+1. Omitted (È—ª)
+
+2. curl -s https://www.rfc-editor.org/rfc/rfc6588.txt | grep "^[0-9]" | tail -n 5
+
+3. See greet.c
+
+4. See addnum.c
+
+5. See addnum_safe.c
