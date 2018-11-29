@@ -6,8 +6,9 @@
 #include "expression.h"
 #include "stack.h"
 
-Node* expression_construct_operator(NodeType type, Node* left, Node* right) {
-    Node* node = (Node*)malloc(sizeof(Node));
+Node *expression_construct_operator(NodeType type, Node *left, Node *right)
+{
+    Node *node = (Node *)malloc(sizeof(Node));
 
     node->type = type;
     node->value = 0;
@@ -18,142 +19,190 @@ Node* expression_construct_operator(NodeType type, Node* left, Node* right) {
     return node;
 }
 
-Node* expression_construct_number(int value) {
-    Node* node = (Node*)malloc(sizeof(Node));
+Node *expression_construct_number(int value)
+{
+    Node *node = (Node *)malloc(sizeof(Node));
 
     node->type = NUMBER;
     node->value = value;
 
     node->left = NULL;
     node->right = NULL;
-    
+
     return node;
 }
 
-void expression_free(Node* tree) {
-    if(tree->left != NULL) {
+void expression_free(Node *tree)
+{
+    if (tree->left != NULL)
+    {
         expression_free(tree->left);
     }
-    if(tree->right != NULL) {
+    if (tree->right != NULL)
+    {
         expression_free(tree->right);
     }
     free(tree);
 }
 
-void print_node(Node* node) {    
-    switch(node->type) {
-        case OPERATOR_ADD:
-            printf(" + ");
-            break;
-        case OPERATOR_SUB:
-            printf(" - ");
-            break;
-        case OPERATOR_MUL:
-            printf(" * ");
-            break;
-        case OPERATOR_DIV:
-            printf(" / ");
-            break;
-        default:
-            printf(" %d ", node->value);
-            break;
+void print_node(Node *node)
+{
+    switch (node->type)
+    {
+    case OPERATOR_ADD:
+        printf(" + ");
+        break;
+    case OPERATOR_SUB:
+        printf(" - ");
+        break;
+    case OPERATOR_MUL:
+        printf(" * ");
+        break;
+    case OPERATOR_DIV:
+        printf(" / ");
+        break;
+    default:
+        printf(" %d ", node->value);
+        break;
     }
 }
 
-void expression_print_prefix(Node* tree) {
+void expression_print_prefix(Node *tree)
+{
     print_node(tree);
 
-    if(tree->left != NULL) {
+    if (tree->left != NULL)
+    {
         expression_print_prefix(tree->left);
     }
 
-    if(tree->right != NULL) {
+    if (tree->right != NULL)
+    {
         expression_print_prefix(tree->right);
     }
 }
 
-void expression_print_infix(Node* tree) {
-    if(tree->left != NULL) {
+void expression_print_infix(Node *tree)
+{
+    if (tree->left != NULL)
+    {
         printf("(");
         expression_print_infix(tree->left);
     }
 
     print_node(tree);
 
-    if(tree->right != NULL) {
+    if (tree->right != NULL)
+    {
         expression_print_infix(tree->right);
         printf(")");
     }
 }
 
-void expression_print_postfix(Node* tree) {
+void expression_print_postfix(Node *tree)
+{
+
+    if (tree->left != NULL)
+    {
+        expression_print_prefix(tree->left);
+    }
+
+    if (tree->right != NULL)
+    {
+        expression_print_prefix(tree->right);
+    }
+    print_node(tree);
 }
 
-Node* expression_parse_prefix(char *str) {
+Node *expression_parse_prefix(char *str)
+{
     char *token = strtok(str, " \n");
-    if(token == NULL) {
+    if (token == NULL)
+    {
         return NULL;
     }
-    if(strcmp(token, "+") == 0) {
-        Node* op1 = expression_parse_prefix(NULL);
-        Node* op2 = expression_parse_prefix(NULL);
+    if (strcmp(token, "+") == 0)
+    {
+        Node *op1 = expression_parse_prefix(NULL);
+        Node *op2 = expression_parse_prefix(NULL);
         return expression_construct_operator(OPERATOR_ADD, op1, op2);
-    } else if(strcmp(token, "-") == 0) {
-        Node* op1 = expression_parse_prefix(NULL);
-        Node* op2 = expression_parse_prefix(NULL);
+    }
+    else if (strcmp(token, "-") == 0)
+    {
+        Node *op1 = expression_parse_prefix(NULL);
+        Node *op2 = expression_parse_prefix(NULL);
         return expression_construct_operator(OPERATOR_SUB, op1, op2);
-    } else if(strcmp(token, "*") == 0) {
-        Node* op1 = expression_parse_prefix(NULL);
-        Node* op2 = expression_parse_prefix(NULL);
+    }
+    else if (strcmp(token, "*") == 0)
+    {
+        Node *op1 = expression_parse_prefix(NULL);
+        Node *op2 = expression_parse_prefix(NULL);
         return expression_construct_operator(OPERATOR_MUL, op1, op2);
-    } else if(strcmp(token, "/") == 0) {
-        Node* op1 = expression_parse_prefix(NULL);
-        Node* op2 = expression_parse_prefix(NULL);
+    }
+    else if (strcmp(token, "/") == 0)
+    {
+        Node *op1 = expression_parse_prefix(NULL);
+        Node *op2 = expression_parse_prefix(NULL);
         return expression_construct_operator(OPERATOR_DIV, op1, op2);
-    } else {
+    }
+    else
+    {
         char *end;
         int value = strtol(token, &end, 10);
         return expression_construct_number(value);
     }
 }
 
-Node* expression_parse_postfix(char *str) {
-    Node* result = NULL;
+Node *expression_parse_postfix(char *str)
+{
+    Node *result = NULL;
     STACK stack = stack_construct();
     char *token;
-    for(token = strtok(str, " \n"); token != NULL; token = strtok(NULL, " \n")) {
-        if(strcmp(token, "+") == 0) {
-            Node* op2 = stack_pop(stack);
-            Node* op1 = stack_pop(stack);
-            Node* operator = expression_construct_operator(OPERATOR_ADD, op1, op2);
+    for (token = strtok(str, " \n"); token != NULL; token = strtok(NULL, " \n"))
+    {
+        if (strcmp(token, "+") == 0)
+        {
+            Node *op2 = stack_pop(stack);
+            Node *op1 = stack_pop(stack);
+            Node *operator= expression_construct_operator(OPERATOR_ADD, op1, op2);
             stack_push(stack, operator);
-        } else if(strcmp(token, "-") == 0) {
-            Node* op2 = stack_pop(stack);
-            Node* op1 = stack_pop(stack);
-            Node* operator = expression_construct_operator(OPERATOR_SUB, op1, op2);
+        }
+        else if (strcmp(token, "-") == 0)
+        {
+            Node *op2 = stack_pop(stack);
+            Node *op1 = stack_pop(stack);
+            Node *operator= expression_construct_operator(OPERATOR_SUB, op1, op2);
             stack_push(stack, operator);
-        } else if(strcmp(token, "*") == 0) {
-            Node* op2 = stack_pop(stack);
-            Node* op1 = stack_pop(stack);
-            Node* operator = expression_construct_operator(OPERATOR_MUL, op1, op2);
+        }
+        else if (strcmp(token, "*") == 0)
+        {
+            Node *op2 = stack_pop(stack);
+            Node *op1 = stack_pop(stack);
+            Node *operator= expression_construct_operator(OPERATOR_MUL, op1, op2);
             stack_push(stack, operator);
-        } else if(strcmp(token, "/") == 0) {
-            Node* op2 = stack_pop(stack);
-            Node* op1 = stack_pop(stack);
-            Node* operator = expression_construct_operator(OPERATOR_DIV, op1, op2);
+        }
+        else if (strcmp(token, "/") == 0)
+        {
+            Node *op2 = stack_pop(stack);
+            Node *op1 = stack_pop(stack);
+            Node *operator= expression_construct_operator(OPERATOR_DIV, op1, op2);
             stack_push(stack, operator);
-        } else {
+        }
+        else
+        {
             char *end;
             int value = strtol(token, &end, 10);
-            Node* number = expression_construct_number(value);
+            Node *number = expression_construct_number(value);
             stack_push(stack, number);
         }
     }
-    if(! stack_empty(stack)) {
+    if (!stack_empty(stack))
+    {
         result = stack_pop(stack);
     }
-    while(! stack_empty(stack)) {
-        Node* node = stack_pop(stack);
+    while (!stack_empty(stack))
+    {
+        Node *node = stack_pop(stack);
         expression_free(node);
     }
     stack_free(stack);
@@ -161,36 +210,41 @@ Node* expression_parse_postfix(char *str) {
     return result;
 }
 
-void expression_print(Node* tree) {
-    if(tree->left != NULL) {
+void expression_print(Node *tree)
+{
+    if (tree->left != NULL)
+    {
         printf("(");
         expression_print(tree->left);
     }
-    
-    switch(tree->type) {
-        case OPERATOR_ADD:
-            printf(" + ");
-            break;
-        case OPERATOR_SUB:
-            printf(" - ");
-            break;
-        case OPERATOR_MUL:
-            printf(" * ");
-            break;
-        case OPERATOR_DIV:
-            printf(" / ");
-            break;
-        default:
-            printf(" %d ", tree->value);
-            break;
+
+    switch (tree->type)
+    {
+    case OPERATOR_ADD:
+        printf(" + ");
+        break;
+    case OPERATOR_SUB:
+        printf(" - ");
+        break;
+    case OPERATOR_MUL:
+        printf(" * ");
+        break;
+    case OPERATOR_DIV:
+        printf(" / ");
+        break;
+    default:
+        printf(" %d ", tree->value);
+        break;
     }
 
-    if(tree->right != NULL) {
+    if (tree->right != NULL)
+    {
         expression_print(tree->right);
         printf(")");
     }
 }
 
-int expression_eval(Node* tree) {
+int expression_eval(Node *tree)
+{
     return 0;
 }
