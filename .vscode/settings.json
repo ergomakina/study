@@ -3,6 +3,7 @@
         "fcntl.h": "c",
         "ostream": "c",
         "xlocnum": "c",
-        "istream": "c"
+        "istream": "c",
+        "queue.h": "c"
     }
 }
