@@ -1,0 +1,22 @@
+1. See mytail.c
+
+2. 
+
+#define REG_PIDATA (*((volatile uint32_t*)0x400c0800))
+#define REG_PIIE   (*((volatile uint32_t*)0x400c0838))
+
+REG_PIIE |= (1 << 4);
+if (REG_PIDATA & (1 << 4)) {
+    printf("[H]\n");
+}
+else {
+    printf("[L]\n");
+}
+
+or,
+
+#define REG_PIDATA (*((volatile uint32_t*)0x400c0800))
+#define REG_PIIE   (*((volatile uint32_t*)0x400c0838))
+
+REG_PIIE |= (1 << 4);
+printf("[%s]\n", (REG_PIDATA & (1 << 4)) ? "H" : "L");

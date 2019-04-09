@@ -1,3 +1,0 @@
-1. See addrserv.c
-
-2. See telnetd.c

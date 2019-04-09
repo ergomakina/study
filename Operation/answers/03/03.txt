@@ -1,6 +1,0 @@
-1. See conceal.c
-
-2. See alphabet.c
-
-3. See sum.S (sum function) as well as main.c (which can be used to test the function)
-

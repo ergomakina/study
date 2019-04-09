@@ -1,3 +1,0 @@
-1. See myshell.c
-
-2. See myshell_redirect.c
