@@ -1,0 +1,61 @@
+<!DOCTYPE CrossStudio_Project_File>
+<solution Name="tcar_sample" target="8" version="2">
+  <project Name="tcar_sample">
+    <configuration
+      Name="Common"
+      Target="TMPM367FDFG"
+      arm_architecture="v7M"
+      arm_core_type="Cortex-M3"
+      arm_endian="Little"
+      arm_fpu_type="None"
+      arm_interwork="No"
+      arm_linker_heap_size="256"
+      arm_linker_process_stack_size="0"
+      arm_linker_stack_size="256"
+      arm_linker_variant="GNU"
+      arm_simulator_memory_simulation_parameter="ROM;0x00000000;0x00080000;RAM;0x20000000;0x00020000"
+      arm_target_debug_interface_type="ADIv5"
+      arm_target_device_name="TMPM367FDFG"
+      arm_target_interface_type="SWD"
+      arm_unaligned_access="No"
+      c_additional_options="-mstructure-size-boundary=8;-DTKERNEL_CHECK_CONST;-D_IOTE_M367_;-I$(ProjectDir)/Includes;-I$(ProjectDir)/Config;-I$(ProjectDir)/Source"
+      c_user_include_directories="$(PackagesDir)/CMSIS_4/CMSIS/Include"
+      debug_entry_point_symbol="Reset_Handler"
+      debug_initial_breakpoint="usermain"
+      debug_register_definition_file="$(PackagesDir)/TMPM3/XML/M367_Registers.xml"
+      debug_start_from_entry_point_symbol="No"
+      debug_startup_completion_point="main"
+      debug_target_connection="J-Link"
+      file_codec="UTF-8"
+      gcc_entry_point="Reset_Handler"
+      link_include_standard_libraries="No"
+      link_linker_script_file="$(ProjectDir)/Source/kernel-rom.ld"
+      link_use_linker_script_file="Yes"
+      linker_additional_files="$(ProjectDir)/Libraries/clock_mode.o;$(ProjectDir)/Libraries/icrt0.o;$(ProjectDir)/Libraries/inittask_main.o;$(ProjectDir)/Libraries/power.o;$(ProjectDir)/Libraries/rom_init.o;$(ProjectDir)/Libraries/startup.o;$(ProjectDir)/Libraries/sysinit.o;$(ProjectDir)/Libraries/vector.o;$(ProjectDir)/Libraries/libcoap.a;$(ProjectDir)/Libraries/libdrvif.a;$(ProjectDir)/Libraries/libfixpt.a;$(ProjectDir)/Libraries/libstr.a;$(ProjectDir)/Libraries/libsvc.a;$(ProjectDir)/Libraries/libtk.a;$(ProjectDir)/Libraries/libtkernel.a;$(ProjectDir)/Libraries/libtm.a;$(ProjectDir)/Libraries/libutkn_hci.a;$(ProjectDir)/Drivers/adcdrv.o;$(ProjectDir)/Drivers/ambient.o;$(ProjectDir)/Drivers/arduino.o;$(ProjectDir)/Drivers/cruise.o;$(ProjectDir)/Drivers/gpiodrv.o;$(ProjectDir)/Drivers/i2c.o;$(ProjectDir)/Drivers/joystick.o;$(ProjectDir)/Drivers/led.o;$(ProjectDir)/Drivers/motion.o;$(ProjectDir)/Drivers/range.o;$(ProjectDir)/Drivers/road.o;$(ProjectDir)/Drivers/uart.o"
+      linker_memory_map_file="$(PackagesDir)/TMPM3/XML/TMPM367FDFG_MemoryMap.xml"
+      package_dependencies="TMPM3"
+      project_type="Executable"
+      target_reset_script="TargetInterface.resetAndStop();"
+      target_trace_initialize_script="EnableTrace(&quot;$(TraceInterfaceType)&quot;)" />
+    <folder Name="Source">
+      <file file_name="Source/inittask_def.c" />
+      <file file_name="Source/inittask_def.h" />
+      <file file_name="Source/usermain.c" />
+    </folder>
+    <configuration
+      Name="Debug"
+      linker_log_file="Yes"
+      linker_supply_memory_segments="No" />
+  </project>
+  <configuration
+    Name="Debug"
+    c_preprocessor_definitions="DEBUG"
+    gcc_debugging_level="Level 3"
+    gcc_optimization_level="None" />
+  <configuration
+    Name="Release"
+    c_preprocessor_definitions="NDEBUG"
+    gcc_debugging_level="None"
+    gcc_omit_frame_pointer="Yes"
+    gcc_optimization_level="Level 1" />
+</solution>

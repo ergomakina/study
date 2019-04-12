@@ -1,0 +1,1683 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o (EnableInt)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(disint.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o) (disint)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o (knl_t_kernel_main)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_timer_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_tkdev_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_cpu_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o (knl_dispatch_to_schedtsk)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (tk_cre_tsk)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (tk_sta_tsk)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o) (knl_hll_inthdr)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o) (knl_lowpow_discnt)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o) (knl_svc_ientry)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_eventflag_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_mailbox_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_fix_memorypool_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_memorypool_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_messagebuffer_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_mutex_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_rendezvous_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_semaphore_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_cyclichandler_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_alarmhandler_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_subsystem_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o (knl_initialize_devmgr)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_finish_devmgr)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o) (knl_free_flgcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o) (knl_free_mbxcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o) (knl_free_mpfcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o) (knl_free_mplcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o) (knl_free_mbfcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o) (knl_free_mtxcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o) (knl_free_porcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o) (knl_free_semcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o) (knl_free_cyccb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o) (knl_free_almcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o) (knl_ssycb_table)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_FreeDevCB)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_DevMgrLock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_DefaultIDev)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o) (knl_schedtsk)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o) (knl_free_tcb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o) (knl_task_initialize)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o) (knl_make_dormant)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o) (knl_make_ready)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o) (knl_Imalloc)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o) (knl_Ifree)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o (knl_init_Imalloc)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_devmgr_startup)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o) (knl_devmgr_cleanup)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (knl_initDevIO)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o) (knl_finishDevIO)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o) (knl_close_device)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o) (knl_FreeOpnCB)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o) (knl_FreeReqCB)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o) (knl_resource_control_block)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o) (knl_DisSusCnt)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o) (knl_searchFreeArea)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o) (knl_appendFreeArea)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o) (knl_removeFreeQue)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o) (knl_insertAreaQue)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o) (knl_removeAreaQue)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o) (knl_imacb)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (tk_get_tid)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (tk_del_sem)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (tk_wai_sem)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (knl_delOpnCB)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (knl_delReqCB)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o) (knl_chkopen)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o) (knl_wait_release_ok)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o) (knl_wait_delete)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o) (knl_gcb_make_wait)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o) (knl_gcb_change_priority)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o) (knl_gcb_top_of_wait_queue)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o) (knl_make_wait)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o) (knl_make_non_ready)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o) (knl_wait_release_tmout)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o (tm_monitor)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o (tm_putstring)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o (tm_exit)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+                              Output/tcar_sample Debug/Obj/usermain.o (tm_printf)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o (sio_init)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o) (tm_putchar)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (fx_mul)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (fx_div)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o (fx_exp2)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (fx_cos)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (fx_sin)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (fx_atan2)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o) (memset)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o) (memcpy)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o (WaitUsec)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o (Lock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o (Unlock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o (CreateLock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o) (MLock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o) (MUnlock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o) (CreateMLock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o) (DeleteMLock)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o) (MLockTmo)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o) (tk_cre_sem)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o) (tk_sig_sem)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o (tk_cre_flg)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o) (tk_del_flg)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o (tk_set_flg)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o (tk_clr_flg)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o (tk_wai_flg)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o (tk_def_int)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o (tk_get_tim)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o (tk_dly_tsk)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o (tk_cre_cyc)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o (tk_sta_cyc)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o) (knl_call_cychdr)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o) (knl_make_wait_reltim)
+C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+                              C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o) (strncpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+reg_ofs             0x1               C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+uartflgid           0x4               C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+knl_lowmem_top      0x4               C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+knl_lowmem_limit    0x4               C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/inittask_def.o
+ .text          0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+ .data          0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+ .bss           0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .group         0x0000000000000000        0xc Output/tcar_sample Debug/Obj/usermain.o
+ .text          0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/usermain.o
+ .data          0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/usermain.o
+ .bss           0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0xa9c Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x22 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x34 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x1c Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x16 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x34 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x34 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x22 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0xac Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x246 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x28b Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x10 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x118 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x51e Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x256 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x118 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x107 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x17e Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x8e3 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000       0x3a Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000000000      0x18f Output/tcar_sample Debug/Obj/usermain.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(disint.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(disint.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+ .text          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+ .text          0x0000000000000000       0x94 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+ .bss           0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+ .text          0x0000000000000000      0x120 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .rodata        0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .bss           0x0000000000000000       0x20 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+ .text          0x0000000000000000      0x12c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .rodata        0x0000000000000000       0x50 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+ .text          0x0000000000000000       0xf0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .rodata        0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .bss           0x0000000000000000        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+ .text          0x0000000000000000      0x5bc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .rodata        0x0000000000000000       0x30 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .bss           0x0000000000000000      0x188 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .comment       0x0000000000000000       0x96 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ COMMON         0x0000000000000000        0x1 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+ .text          0x0000000000000000      0x2d4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+ .data          0x0000000000000000       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+ .bss           0x0000000000000000       0x10 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+ .text          0x0000000000000000      0x128 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .rodata        0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .bss           0x0000000000000000       0x10 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+ .text          0x0000000000000000      0x1b0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .rodata        0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .bss           0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .comment       0x0000000000000000       0x64 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+ .text          0x0000000000000000      0x748 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .rodata        0x0000000000000000        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .bss           0x0000000000000000       0xb0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .comment       0x0000000000000000       0x96 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+ .text          0x0000000000000000       0x7c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .rodata        0x0000000000000000        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+ .text          0x0000000000000000      0x168 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .rodata        0x0000000000000000        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .bss           0x0000000000000000       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+ .text          0x0000000000000000     0x124c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .rodata        0x0000000000000000       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .data          0x0000000000000000       0x78 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .bss           0x0000000000000000       0xd4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .comment       0x0000000000000000       0xc8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ COMMON         0x0000000000000000        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+ .text          0x0000000000000000        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_mul.o)
+ .text          0x0000000000000000       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_div.o)
+ .text          0x0000000000000000       0x3c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .rodata        0x0000000000000000       0x42 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_exp2.o)
+ .text          0x0000000000000000       0x90 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .rodata        0x0000000000000000       0x4a C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_cos.o)
+ .text          0x0000000000000000        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_sin.o)
+ .text          0x0000000000000000      0x120 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .rodata        0x0000000000000000       0x42 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a(fx_atan2.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+ .text          0x0000000000000000      0x148 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(waitusec.o)
+ .text          0x0000000000000000       0x28 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(lock.o)
+ .text          0x0000000000000000       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(unlock.o)
+ .text          0x0000000000000000       0x3c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+ .text          0x0000000000000000       0xb0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_sem.o)
+ .text          0x0000000000000000       0xb4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sig_sem.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+ .text          0x0000000000000000       0x6c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_clr_flg.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+ .text          0x0000000000000000       0x8c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_def_int.o)
+ .text          0x0000000000000000       0x64 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tim.o)
+ .text          0x0000000000000000       0x9c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .rodata        0x0000000000000000        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_dly_tsk.o)
+ .text          0x0000000000000000      0x110 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_cyc.o)
+ .text          0x0000000000000000      0x118 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_cyc.o)
+ .text          0x0000000000000000       0x48 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(call_cychdr.o)
+ .text          0x0000000000000000       0x44 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+ .comment       0x0000000000000000       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+ .ARM.attributes
+                0x0000000000000000       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait_reltim.o)
+ .data          0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+ .bss           0x0000000000000000        0x0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000080000 xr
+RAM              0x0000000020000800 0x000000000001f800 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000     0x2e60
+                0x0000000000000000                __vector_org = .
+ *(.vector)
+ .vector        0x0000000000000000      0x240 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+                0x0000000000000240                __start = .
+ *(.text)
+ .text          0x0000000000000240       0xe0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+                0x0000000000000240                enable_pll
+                0x000000000000031c                disable_pll
+ .text          0x0000000000000320       0xa0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+                0x0000000000000320                startup_common
+ .text          0x00000000000003c0       0x14 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+                0x00000000000003c0                knl_init_task_main
+ .text          0x00000000000003d4        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+                0x00000000000003d4                knl_low_pow
+                0x00000000000003d8                knl_off_pow
+ .text          0x00000000000003dc       0x70 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+                0x00000000000003dc                Reset_Handler
+ .text          0x000000000000044c       0xbc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o
+                0x000000000000044c                startup_device
+ .text          0x0000000000000508       0xec C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+                0x0000000000000508                knl_init_device
+                0x000000000000050c                knl_start_device
+                0x0000000000000510                knl_finish_device
+                0x0000000000000514                knl_restart_device
+                0x0000000000000564                knl_init_task
+                0x0000000000000578                knl_init_system
+                0x00000000000005a0                knl_start_system
+                0x00000000000005c8                knl_shutdown_system
+ .text          0x00000000000005f4       0x14 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+                0x00000000000005f4                NMI_Handler
+                0x00000000000005f6                HardFault_Handler
+                0x00000000000005f8                MemManage_Handler
+                0x00000000000005fa                BusFault_Handler
+                0x00000000000005fc                UsageFault_Handler
+                0x0000000000000600                DebugMon_Handler
+                0x0000000000000604                INTMTCAP30_IRQHandler
+                0x0000000000000604                INTDMADAA_IRQHandler
+                0x0000000000000604                INTCANTX_IRQHandler
+                0x0000000000000604                INTCAP70_IRQHandler
+                0x0000000000000604                INTDMARX2_IRQHandler
+                0x0000000000000604                INT7_IRQHandler
+                0x0000000000000604                INTENC0_IRQHandler
+                0x0000000000000604                INTA_IRQHandler
+                0x0000000000000604                INTTX2_IRQHandler
+                0x0000000000000604                INTMTTB10_IRQHandler
+                0x0000000000000604                INTSSP0_IRQHandler
+                0x0000000000000604                INTCANGB_IRQHandler
+                0x0000000000000604                INTCAP61_IRQHandler
+                0x0000000000000604                INTMTCAP10_IRQHandler
+                0x0000000000000604                INT4_IRQHandler
+                0x0000000000000604                INTTX0_IRQHandler
+                0x0000000000000604                INTCAP00_IRQHandler
+                0x0000000000000604                INTCAP31_IRQHandler
+                0x0000000000000604                INTMTEMG3_IRQHandler
+                0x0000000000000604                INTCAP50_IRQHandler
+                0x0000000000000604                INTCAP11_IRQHandler
+                0x0000000000000604                INTB_IRQHandler
+                0x0000000000000604                INTDMASPT2_IRQHandler
+                0x0000000000000604                INTMTCAP11_IRQHandler
+                0x0000000000000604                INTDMATB_IRQHandler
+                0x0000000000000604                INTSBI0_IRQHandler
+                0x0000000000000604                INTDMASPT1_IRQHandler
+                0x0000000000000604                INTE_IRQHandler
+                0x0000000000000604                INTCAP21_IRQHandler
+                0x0000000000000604                INTDMATX3_IRQHandler
+                0x0000000000000604                INTMTTB21_IRQHandler
+                0x0000000000000604                INTDMAUTT0_IRQHandler
+                0x0000000000000604                INTDMASPR2_IRQHandler
+                0x0000000000000604                INTUSBH_IRQHandler
+                0x0000000000000604                INTUART1_IRQHandler
+                0x0000000000000604                INTF_IRQHandler
+                0x0000000000000604                INTCAP41_IRQHandler
+                0x0000000000000604                INTADA_IRQHandler
+                0x0000000000000604                INTSSP1_IRQHandler
+                0x0000000000000604                INTADAHP_IRQHandler
+                0x0000000000000604                INTDMASBI2_IRQHandler
+                0x0000000000000604                INT0_IRQHandler
+                0x0000000000000604                INTMTTB01_IRQHandler
+                0x0000000000000604                INTTB2_IRQHandler
+                0x0000000000000604                INTDMATX0_IRQHandler
+                0x0000000000000604                INTPMD1_IRQHandler
+                0x0000000000000604                INTDMATX1_IRQHandler
+                0x0000000000000604                INTDMADAB_IRQHandler
+                0x0000000000000604                INT8_IRQHandler
+                0x0000000000000604                INTADBM1_IRQHandler
+                0x0000000000000604                INTCAP20_IRQHandler
+                0x0000000000000604                INTMTCAP01_IRQHandler
+                0x0000000000000604                INTMTEMG0_IRQHandler
+                0x0000000000000604                INTMTEMG2_IRQHandler
+                0x0000000000000604                INTCANRX_IRQHandler
+                0x0000000000000604                INTSBI1_IRQHandler
+                0x0000000000000604                INTMTTB30_IRQHandler
+                0x0000000000000604                INT6_IRQHandler
+                0x0000000000000604                INTETHWK_IRQHandler
+                0x0000000000000604                INTSSP2_IRQHandler
+                0x0000000000000604                INTDMASBI1_IRQHandler
+                0x0000000000000604                INTDMASPR1_IRQHandler
+                0x0000000000000604                INTTB0_IRQHandler
+                0x0000000000000604                INTC_IRQHandler
+                0x0000000000000604                INTDMAUTR0_IRQHandler
+                0x0000000000000604                INTMTTB20_IRQHandler
+                0x0000000000000604                INTCAP51_IRQHandler
+                0x0000000000000604                INTSBI2_IRQHandler
+                0x0000000000000604                INTMTCAP21_IRQHandler
+                0x0000000000000604                INTCAP60_IRQHandler
+                0x0000000000000604                INTUSBDPON_INTD_IRQHandler
+                0x0000000000000604                INTMTCAP31_IRQHandler
+                0x0000000000000604                INT5_IRQHandler
+                0x0000000000000604                INTADBHP_IRQHandler
+                0x0000000000000604                INTTB6_IRQHandler
+                0x0000000000000604                INTCAP71_IRQHandler
+                0x0000000000000604                INTRTC_IRQHandler
+                0x0000000000000604                INTDMAADB_IRQHandler
+                0x0000000000000604                INTTB7_IRQHandler
+                0x0000000000000604                INTETH_IRQHandler
+                0x0000000000000604                INTDMASPR0_IRQHandler
+                0x0000000000000604                INTDMAUTR1_IRQHandler
+                0x0000000000000604                INTDMAAERR_IRQHandler
+                0x0000000000000604                INTDMAUTT1_IRQHandler
+                0x0000000000000604                INTADAM1_IRQHandler
+                0x0000000000000604                INTMTEMG1_IRQHandler
+                0x0000000000000604                INTCAP40_IRQHandler
+                0x0000000000000604                INTTX3_IRQHandler
+                0x0000000000000604                INTTB4_IRQHandler
+                0x0000000000000604                INTUART0_IRQHandler
+                0x0000000000000604                INTTB3_IRQHandler
+                0x0000000000000604                INT2_IRQHandler
+                0x0000000000000604                INTEMG1_IRQHandler
+                0x0000000000000604                INTCAP30_IRQHandler
+                0x0000000000000604                INTTX1_IRQHandler
+                0x0000000000000604                INTMTTB11_IRQHandler
+                0x0000000000000604                INTADAM0_IRQHandler
+                0x0000000000000604                INTTB1_IRQHandler
+                0x0000000000000604                INTCAP01_IRQHandler
+                0x0000000000000604                INTRX0_IRQHandler
+                0x0000000000000604                INTMTTB00_IRQHandler
+                0x0000000000000604                INTDMABERR_IRQHandler
+                0x0000000000000604                INTMTCAP00_IRQHandler
+                0x0000000000000604                INTADBM0_IRQHandler
+                0x0000000000000604                INT1_IRQHandler
+                0x0000000000000604                INTTB5_IRQHandler
+                0x0000000000000604                INTENC1_IRQHandler
+                0x0000000000000604                INTDMARQ_IRQHandler
+                0x0000000000000604                INTRX3_IRQHandler
+                0x0000000000000604                INTMTCAP20_IRQHandler
+                0x0000000000000604                INTDMASPT0_IRQHandler
+                0x0000000000000604                INTDMAADA_IRQHandler
+                0x0000000000000604                INTDMATX2_IRQHandler
+                0x0000000000000604                INTEMG0_IRQHandler
+                0x0000000000000604                INT9_IRQHandler
+                0x0000000000000604                INTRX1_IRQHandler
+                0x0000000000000604                INTUSBWKUP_IRQHandler
+                0x0000000000000604                INTRMCRX_IRQHandler
+                0x0000000000000604                INTRX2_IRQHandler
+                0x0000000000000604                INTMTTB31_IRQHandler
+                0x0000000000000604                INTADB_IRQHandler
+                0x0000000000000604                INTDMARX0_IRQHandler
+                0x0000000000000604                INT3_IRQHandler
+                0x0000000000000604                INTUSBD_IRQHandler
+                0x0000000000000604                INTDMARX3_IRQHandler
+                0x0000000000000604                INTPMD0_IRQHandler
+                0x0000000000000604                INTDMARX1_IRQHandler
+                0x0000000000000604                INTCAP10_IRQHandler
+ .text          0x0000000000000608       0xbc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+                0x0000000000000608                SetCpuIntLevel
+                0x0000000000000614                GetCpuIntLevel
+                0x0000000000000624                EnableInt
+                0x000000000000065c                DisableInt
+                0x0000000000000674                SetPendingInt
+                0x0000000000000690                ClearPendingInt
+                0x00000000000006a8                CheckInt
+ .text          0x00000000000006c4       0x1c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(disint.o)
+                0x00000000000006c4                disint
+                0x00000000000006d0                enaint
+                0x00000000000006d8                get_basepri
+ .text          0x00000000000006e0      0x1f0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+                0x00000000000006f8                knl_t_kernel_main
+                0x00000000000008ac                knl_t_kernel_shutdown
+                0x00000000000008bc                knl_t_kernel_exit
+ .text          0x00000000000008d0      0x16c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+                0x0000000000000914                knl_timer_initialize
+                0x0000000000000954                knl_timer_shutdown
+                0x0000000000000960                knl_timer_insert
+                0x0000000000000988                knl_timer_insert_reltim
+                0x00000000000009a0                knl_timer_insert_abs
+                0x00000000000009ac                knl_timer_handler
+ .text          0x0000000000000a3c       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+                0x0000000000000a3c                knl_tkdev_initialize
+                0x0000000000000a40                knl_tkdev_exit
+ .text          0x0000000000000a54        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+                0x0000000000000a54                knl_cpu_initialize
+                0x0000000000000a58                knl_cpu_shutdown
+ .text          0x0000000000000a5c      0x1ac C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o)
+                0x0000000000000a5c                knl_dispatch_to_schedtsk
+                0x0000000000000a7c                knl_dispatch_entry
+                0x0000000000000ae0                knl_inthdr_startup
+                0x0000000000000b20                tk_ret_int
+                0x0000000000000b24                knl_no_support
+                0x0000000000000b28                knl_svcall_entry
+                0x0000000000000b62                knl_call_entry
+                0x0000000000000b8c                knl_timer_handler_startup
+                0x0000000000000ba6                knl_force_dispatch
+                0x0000000000000bba                knl_dispatch
+                0x0000000000000bc4                knl_getXPSR
+                0x0000000000000bca                knl_getBASEPRI
+                0x0000000000000bd0                knl_getPRIMASK
+ .text          0x0000000000000c08      0x108 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+                0x0000000000000c08                tk_cre_tsk
+ .text          0x0000000000000d10       0xa8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+                0x0000000000000d10                tk_sta_tsk
+ .text          0x0000000000000db8       0x74 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+                0x0000000000000db8                knl_svc_ientry
+ .text          0x0000000000000e2c       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+                0x0000000000000e2c                knl_eventflag_initialize
+ .text          0x0000000000000e60       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+                0x0000000000000e60                knl_mailbox_initialize
+ .text          0x0000000000000e94       0x38 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+                0x0000000000000e94                knl_fix_memorypool_initialize
+ .text          0x0000000000000ecc       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+                0x0000000000000ecc                knl_memorypool_initialize
+ .text          0x0000000000000ef0       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+                0x0000000000000ef0                knl_messagebuffer_initialize
+ .text          0x0000000000000f24       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+                0x0000000000000f24                knl_mutex_initialize
+ .text          0x0000000000000f48       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+                0x0000000000000f48                knl_rendezvous_initialize
+ .text          0x0000000000000f7c       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+                0x0000000000000f7c                knl_semaphore_initialize
+ .text          0x0000000000000fb0       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+                0x0000000000000fb0                knl_cyclichandler_initialize
+ .text          0x0000000000000fe4       0x34 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+                0x0000000000000fe4                knl_alarmhandler_initialize
+ .text          0x0000000000001018       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+                0x0000000000001018                knl_subsystem_initialize
+ .text          0x0000000000001030       0x70 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+                0x0000000000001030                knl_initialize_devmgr
+ .text          0x00000000000010a0       0x1c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+                0x00000000000010a0                knl_finish_devmgr
+ .text          0x00000000000010bc       0x8c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+                0x00000000000010bc                knl_task_initialize
+ .text          0x0000000000001148       0x60 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+                0x0000000000001148                knl_make_dormant
+ .text          0x00000000000011a8       0x54 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+                0x00000000000011a8                knl_make_ready
+ .text          0x00000000000011fc       0x70 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+                0x00000000000011fc                knl_Imalloc
+ .text          0x000000000000126c       0x64 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+                0x000000000000126c                knl_Ifree
+ .text          0x00000000000012d0       0x8c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+                0x00000000000012d0                knl_init_Imalloc
+ .text          0x000000000000135c       0x2c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+                0x000000000000135c                knl_devmgr_startup
+ .text          0x0000000000001388       0x64 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+                0x0000000000001388                knl_devmgr_cleanup
+ .text          0x00000000000013ec       0x6c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+                0x00000000000013ec                knl_initDevIO
+ .text          0x0000000000001458        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+                0x0000000000001458                knl_finishDevIO
+ .text          0x000000000000145c      0x228 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+                0x000000000000145c                knl_close_device
+ .text          0x0000000000001684       0x60 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+                0x0000000000001684                knl_searchFreeArea
+ .text          0x00000000000016e4       0x58 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+                0x00000000000016e4                knl_appendFreeArea
+ .text          0x000000000000173c       0x54 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+                0x000000000000173c                knl_removeFreeQue
+ .text          0x0000000000001790       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+                0x0000000000001790                knl_insertAreaQue
+ .text          0x00000000000017a8       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+                0x00000000000017a8                knl_removeAreaQue
+ .text          0x00000000000017c0       0x10 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+                0x00000000000017c0                tk_get_tid
+ .text          0x00000000000017d0       0x80 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+                0x00000000000017d0                tk_del_sem
+ .text          0x0000000000001850      0x198 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+                0x00000000000018c8                tk_wai_sem
+ .text          0x00000000000019e8       0x3c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+                0x00000000000019e8                knl_delOpnCB
+ .text          0x0000000000001a24       0x28 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+                0x0000000000001a24                knl_delReqCB
+ .text          0x0000000000001a4c       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+                0x0000000000001a4c                knl_chkopen
+ .text          0x0000000000001a70       0x44 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+                0x0000000000001a70                knl_wait_release_ok
+ .text          0x0000000000001ab4       0x5c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+                0x0000000000001ab4                knl_wait_delete
+ .text          0x0000000000001b10       0x68 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+                0x0000000000001b10                knl_gcb_make_wait
+ .text          0x0000000000001b78       0x40 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+                0x0000000000001b78                knl_gcb_change_priority
+ .text          0x0000000000001bb8       0x28 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+                0x0000000000001bb8                knl_gcb_top_of_wait_queue
+ .text          0x0000000000001be0       0x44 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+                0x0000000000001be0                knl_make_wait
+ .text          0x0000000000001c24       0xac C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+                0x0000000000001c24                knl_make_non_ready
+ .text          0x0000000000001cd0       0x38 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+                0x0000000000001cd0                knl_wait_release_tmout
+ .text          0x0000000000001d08        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+                0x0000000000001d08                tm_monitor
+ .text          0x0000000000001d0c       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+                0x0000000000001d0c                tm_putstring
+ .text          0x0000000000001d30        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+                0x0000000000001d30                tm_exit
+ .text          0x0000000000001d34      0x6c8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+                0x0000000000002390                tm_printf
+                0x00000000000023c4                tm_sprintf
+ .text          0x00000000000023fc      0x2d0 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+                0x00000000000023fc                SEGGER_RTT_Read
+                0x0000000000002498                SEGGER_RTT_Write
+                0x0000000000002568                SEGGER_RTT_WriteString
+                0x000000000000258c                SEGGER_RTT_GetKey
+                0x00000000000025b0                SEGGER_RTT_WaitKey
+                0x00000000000025d0                SEGGER_RTT_HasKey
+                0x00000000000025e4                SEGGER_RTT_ConfigUpBuffer
+                0x0000000000002644                SEGGER_RTT_ConfigDownBuffer
+                0x000000000000269c                SEGGER_RTT_Init
+                0x00000000000026a0                sio_send_frame
+                0x00000000000026ac                sio_send_wait
+                0x00000000000026b0                sio_recv_frame
+                0x00000000000026c8                sio_init
+ .text          0x00000000000026cc       0x30 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+                0x00000000000026cc                tm_putchar
+ .text          0x00000000000026fc       0x88 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+                0x00000000000026fc                memset
+ .text          0x0000000000002784       0x1c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+                0x0000000000002784                memcpy
+ .text          0x00000000000027a0        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+                0x00000000000027a0                MLock
+ .text          0x00000000000027a8       0x2c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+                0x00000000000027a8                MUnlock
+ .text          0x00000000000027d4       0x38 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+                0x00000000000027d4                CreateMLock
+ .text          0x000000000000280c       0x24 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+                0x000000000000280c                DeleteMLock
+ .text          0x0000000000002830       0x58 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+                0x0000000000002830                MLockTmo
+ .text          0x0000000000002888       0x94 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+                0x0000000000002888                tk_cre_flg
+ .text          0x000000000000291c       0x80 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+                0x000000000000291c                tk_del_flg
+ .text          0x000000000000299c       0xe8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+                0x000000000000299c                tk_set_flg
+ .text          0x0000000000002a84      0x16c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+                0x0000000000002a9c                tk_wai_flg
+ .text          0x0000000000002bf0       0x38 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+                0x0000000000002bf0                strncpy
+ *(.text.*)
+ .text.usermain
+                0x0000000000002c28       0x14 Output/tcar_sample Debug/Obj/usermain.o
+                0x0000000000002c28                usermain
+ .text.startup  0x0000000000002c3c       0x14 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+                0x0000000000002c3c                main
+ *(.rodata)
+ .rodata        0x0000000000002c50        0xd Output/tcar_sample Debug/Obj/usermain.o
+ *fill*         0x0000000000002c5d        0x3 00000000
+ .rodata        0x0000000000002c60       0x23 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+ *fill*         0x0000000000002c83        0x1 00000000
+ .rodata        0x0000000000002c84       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+ .rodata        0x0000000000002c9c       0x20 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+ .rodata        0x0000000000002cbc        0x1 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+ *fill*         0x0000000000002cbd        0x3 00000000
+ .rodata        0x0000000000002cc0       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+ *(.rodata.*)
+ .rodata.knl_c_init_task
+                0x0000000000002cd8       0x18 Output/tcar_sample Debug/Obj/inittask_def.o
+                0x0000000000002cd8                knl_c_init_task
+ .rodata.str1.4
+                0x0000000000002cf0       0x78 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+ .rodata.str1.4
+                0x0000000000002d68       0xd3 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+                                         0xdf (size before relaxing)
+ *fill*         0x0000000000002e3b        0x1 00000000
+ .rodata.str1.4
+                0x0000000000002e3c        0x5 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+ *fill*         0x0000000000002e41        0x3 00000000
+ .rodata.str1.4
+                0x0000000000002e44        0xa C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+                                          0xe (size before relaxing)
+ *fill*         0x0000000000002e4e        0x2 00000000
+ .rodata.str1.4
+                0x0000000000002e50        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+                                          0x9 (size before relaxing)
+                0x0000000000002e60                . = ALIGN (0x10)
+ *fill*         0x0000000000002e5c        0x4 00000000
+
+.glue_7         0x0000000000000000        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000000000        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000000        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000000000        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000000000        0x0
+ .iplt          0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+
+.rel.dyn        0x0000000000000000        0x0
+ .rel.iplt      0x0000000000000000        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                __data_org = .
+
+vector          0x0000000020000800      0x240
+                0x0000000020000800                __vector_start = .
+ *(.data_vector)
+ .data_vector   0x0000000020000800      0x240 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+                0x0000000020000840                knl_intvec
+                0x0000000020000a40                __vector_end = .
+
+.data           0x0000000020000a40       0x78 load address 0x0000000000002e60
+                0x0000000020000a40                __data_start = .
+ *(.data)
+ .data          0x0000000020000a40       0x78 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+ *(.data.*)
+                0x0000000020000ab8                . = ALIGN (0x4)
+                0x0000000020000ab8                __data_end = .
+
+.igot.plt       0x0000000020000800        0x0
+ .igot.plt      0x0000000020000800        0x0 Output/tcar_sample Debug/Obj/inittask_def.o
+
+.bss            0x0000000020000ab8     0x2a78 load address 0x0000000000002ed8
+                0x0000000020000ab8                __bss_start = .
+                [!provide]                        PROVIDE (__noinit_start = .)
+ *(.noinit)
+ .noinit        0x0000000020000ab8       0x18 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+                0x0000000020000ab8                knl_timer_queue
+                0x0000000020000ac0                knl_current_time
+                0x0000000020000ac8                knl_real_time_ofs
+ .noinit        0x0000000020000ad0       0x80 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+                0x0000000020000ad0                knl_tmp_stack
+ .noinit        0x0000000020000b50      0x200 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+                0x0000000020000b50                knl_hll_inthdr
+ .noinit        0x0000000020000d50      0x188 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+                0x0000000020000d50                knl_free_flgcb
+                0x0000000020000d58                knl_flgcb_table
+ .noinit        0x0000000020000ed8       0xe8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+                0x0000000020000ed8                knl_free_mbxcb
+                0x0000000020000ee0                knl_mbxcb_table
+ .noinit        0x0000000020000fc0      0x1c8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+                0x0000000020000fc0                knl_free_mpfcb
+                0x0000000020000fc8                knl_mpfcb_table
+ .noinit        0x0000000020001188       0x70 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+                0x0000000020001188                knl_free_mplcb
+                0x0000000020001190                knl_mplcb_table
+ .noinit        0x00000000200011f8      0x1a8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+                0x00000000200011f8                knl_free_mbfcb
+                0x0000000020001200                knl_mbfcb_table
+ .noinit        0x00000000200013a0       0x48 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+                0x00000000200013a0                knl_free_mtxcb
+                0x00000000200013a8                knl_mtxcb_table
+ .noinit        0x00000000200013e8       0x98 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+                0x00000000200013e8                knl_free_porcb
+                0x00000000200013f0                knl_porcb_table
+ .noinit        0x0000000020001480      0x1c8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+                0x0000000020001480                knl_free_semcb
+                0x0000000020001488                knl_semcb_table
+ .noinit        0x0000000020001648       0xa8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+                0x0000000020001648                knl_free_cyccb
+                0x0000000020001650                knl_cyccb_table
+ .noinit        0x00000000200016f0      0x128 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+                0x00000000200016f0                knl_free_almcb
+                0x00000000200016f8                knl_almcb_table
+ .noinit        0x0000000020001818       0x10 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+                0x0000000020001818                knl_ssycb_table
+ .noinit        0x0000000020001828      0x250 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+                0x0000000020001828                knl_FreeDevCB
+                0x0000000020001830                knl_UsedDevCB
+                0x0000000020001838                knl_DevCBtbl
+ .noinit        0x0000000020001a78        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+                0x0000000020001a78                knl_DevMgrLock
+ .noinit        0x0000000020001a84        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+                0x0000000020001a84                knl_DefaultIDev
+ .noinit        0x0000000020001a88      0x11c C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+                0x0000000020001a88                knl_ready_queue
+                0x0000000020001b98                knl_schedtsk
+                0x0000000020001b9c                knl_ctxtsk
+                0x0000000020001ba0                knl_dispatch_disabled
+ .noinit        0x0000000020001ba4      0xe08 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+                0x0000000020001ba4                knl_free_tcb
+                0x0000000020001bac                knl_tcb_table
+ .noinit        0x00000000200029ac      0x408 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+                0x00000000200029ac                knl_FreeOpnCB
+                0x00000000200029b4                knl_OpnCBtbl
+ .noinit        0x0000000020002db4      0x348 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+                0x0000000020002db4                knl_FreeReqCB
+                0x0000000020002dbc                knl_ReqCBtbl
+ .noinit        0x00000000200030fc        0xc C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+                0x00000000200030fc                knl_resource_control_block
+ .noinit        0x0000000020003108        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+                0x0000000020003108                knl_imacb
+                [!provide]                        PROVIDE (__noinit_end = .)
+ *(.bss)
+ .bss           0x000000002000310c        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+                0x000000002000310c                knl_taskindp
+ .bss           0x0000000020003110        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+                0x0000000020003110                knl_lowpow_discnt
+ .bss           0x0000000020003114        0x4 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+                0x0000000020003114                knl_DisSusCnt
+ .bss           0x0000000020003118      0x410 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+ *(.bss.*)
+ *(COMMON)
+ COMMON         0x0000000020003528        0x8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+                0x0000000020003528                knl_lowmem_top
+                0x000000002000352c                knl_lowmem_limit
+                0x0000000020003530                . = ALIGN (0x4)
+                0x0000000020003530                __bss_end = .
+                0x0000000020003530                __end = .
+START GROUP
+LOAD Output/tcar_sample Debug/Obj/inittask_def.o
+LOAD Output/tcar_sample Debug/Obj/usermain.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libcoap.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libdrvif.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libfixpt.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libsvc.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libutkn_hci.a
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/adcdrv.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/ambient.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/arduino.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/cruise.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/gpiodrv.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/i2c.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/joystick.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/led.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/motion.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/range.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/road.o
+LOAD C:/Users/ergop/Documents/github/study/2019/tcar_sample/Drivers/uart.o
+END GROUP
+OUTPUT(Output/Debug/Exe/tcar_sample.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000      0x1bb
+ .debug_info    0x0000000000000000      0x137 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_info    0x0000000000000137       0x84 Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_abbrev   0x0000000000000000       0xfd
+ .debug_abbrev  0x0000000000000000       0xa2 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_abbrev  0x00000000000000a2       0x5b Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_pubnames
+                0x0000000000000000       0x45
+ .debug_pubnames
+                0x0000000000000000       0x26 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_pubnames
+                0x0000000000000026       0x1f Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_pubtypes
+                0x0000000000000000      0x17b
+ .debug_pubtypes
+                0x0000000000000000       0xde Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_pubtypes
+                0x00000000000000de       0x9d Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_aranges  0x0000000000000000       0x38
+ .debug_aranges
+                0x0000000000000000       0x18 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_aranges
+                0x0000000000000018       0x20 Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_macro    0x0000000000000000     0x2c0a
+ .debug_macro   0x0000000000000000      0x1da Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x00000000000001da      0xa9c Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000c76       0x22 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000c98       0x34 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000ccc       0x1c Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000ce8       0x16 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000cfe       0x34 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000d32       0x34 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000d66       0x22 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000d88       0xac Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000000e34      0x246 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x000000000000107a      0x28b Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001305       0x10 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001315      0x118 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x000000000000142d      0x51e Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x000000000000194b      0x256 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001ba1      0x118 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001cb9      0x107 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001dc0      0x17e Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000001f3e      0x8e3 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000002821       0x3a Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x000000000000285b      0x18f Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x00000000000029ea       0x28 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_macro   0x0000000000002a12      0x1e8 Output/tcar_sample Debug/Obj/usermain.o
+ .debug_macro   0x0000000000002bfa       0x10 Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_line     0x0000000000000000      0xec1
+ .debug_line    0x0000000000000000      0x706 Output/tcar_sample Debug/Obj/inittask_def.o
+ .debug_line    0x0000000000000706      0x7bb Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_str      0x0000000000000000     0x9f95
+ .debug_str     0x0000000000000000     0x9f0b Output/tcar_sample Debug/Obj/inittask_def.o
+                                       0x9f6f (size before relaxing)
+ .debug_str     0x0000000000009f0b       0x8a Output/tcar_sample Debug/Obj/usermain.o
+                                       0x9ec1 (size before relaxing)
+
+.comment        0x0000000000000000       0x74
+ .comment       0x0000000000000000       0x43 Output/tcar_sample Debug/Obj/inittask_def.o
+                                         0x44 (size before relaxing)
+ .comment       0x0000000000000043       0x44 Output/tcar_sample Debug/Obj/usermain.o
+ .comment       0x0000000000000043       0x31 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+ .comment       0x0000000000000074       0xc8 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+ .comment       0x0000000000000074       0x32 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+
+.ARM.attributes
+                0x0000000000000000       0x31
+ .ARM.attributes
+                0x0000000000000000       0x31 Output/tcar_sample Debug/Obj/inittask_def.o
+ .ARM.attributes
+                0x0000000000000031       0x31 Output/tcar_sample Debug/Obj/usermain.o
+ .ARM.attributes
+                0x0000000000000062       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/clock_mode.o
+ .ARM.attributes
+                0x0000000000000095       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/icrt0.o
+ .ARM.attributes
+                0x00000000000000b6       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/inittask_main.o
+ .ARM.attributes
+                0x00000000000000e9       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/power.o
+ .ARM.attributes
+                0x000000000000011c       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/rom_init.o
+ .ARM.attributes
+                0x000000000000013d       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/startup.o
+ .ARM.attributes
+                0x000000000000015e       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/sysinit.o
+ .ARM.attributes
+                0x0000000000000191       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/vector.o
+ .ARM.attributes
+                0x00000000000001b2       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(int.o)
+ .ARM.attributes
+                0x00000000000001e5       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(disint.o)
+ .ARM.attributes
+                0x0000000000000206       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkstart.o)
+ .ARM.attributes
+                0x0000000000000239       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(timer.o)
+ .ARM.attributes
+                0x000000000000026c       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tkdev_init.o)
+ .ARM.attributes
+                0x000000000000029f       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_init.o)
+ .ARM.attributes
+                0x00000000000002d2       0x21 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cpu_support.o)
+ .ARM.attributes
+                0x00000000000002f3       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_tsk.o)
+ .ARM.attributes
+                0x0000000000000326       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_sta_tsk.o)
+ .ARM.attributes
+                0x0000000000000359       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(hll_inthdr.o)
+ .ARM.attributes
+                0x000000000000038c       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(lowpow_discnt.o)
+ .ARM.attributes
+                0x00000000000003bf       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(svc_ientry.o)
+ .ARM.attributes
+                0x00000000000003f2       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(eventflag_initialize.o)
+ .ARM.attributes
+                0x0000000000000425       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mailbox_initialize.o)
+ .ARM.attributes
+                0x0000000000000458       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(fix_memorypool_initialize.o)
+ .ARM.attributes
+                0x000000000000048b       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(memorypool_initialize.o)
+ .ARM.attributes
+                0x00000000000004be       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(messagebuffer_initialize.o)
+ .ARM.attributes
+                0x00000000000004f1       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mutex_initialize.o)
+ .ARM.attributes
+                0x0000000000000524       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(rendezvous_initialize.o)
+ .ARM.attributes
+                0x0000000000000557       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semaphore_initialize.o)
+ .ARM.attributes
+                0x000000000000058a       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyclichandler_initialize.o)
+ .ARM.attributes
+                0x00000000000005bd       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(alarmhandler_initialize.o)
+ .ARM.attributes
+                0x00000000000005f0       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(subsystem_initialize.o)
+ .ARM.attributes
+                0x0000000000000623       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initialize_devmgr.o)
+ .ARM.attributes
+                0x0000000000000656       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finish_devmgr.o)
+ .ARM.attributes
+                0x0000000000000689       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(flgcb_table.o)
+ .ARM.attributes
+                0x00000000000006bc       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbxcb_table.o)
+ .ARM.attributes
+                0x00000000000006ef       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mpfcb_table.o)
+ .ARM.attributes
+                0x0000000000000722       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mplcb_table.o)
+ .ARM.attributes
+                0x0000000000000755       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mbfcb_table.o)
+ .ARM.attributes
+                0x0000000000000788       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(mtxcb_table.o)
+ .ARM.attributes
+                0x00000000000007bb       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(porcb_table.o)
+ .ARM.attributes
+                0x00000000000007ee       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(semcb_table.o)
+ .ARM.attributes
+                0x0000000000000821       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(cyccb_table.o)
+ .ARM.attributes
+                0x0000000000000854       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(almcb_table.o)
+ .ARM.attributes
+                0x0000000000000887       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ssycb_table.o)
+ .ARM.attributes
+                0x00000000000008ba       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devcbtbl.o)
+ .ARM.attributes
+                0x00000000000008ed       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgrlock.o)
+ .ARM.attributes
+                0x0000000000000920       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(defaultidev.o)
+ .ARM.attributes
+                0x0000000000000953       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ctxtsk.o)
+ .ARM.attributes
+                0x0000000000000986       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tcb_table.o)
+ .ARM.attributes
+                0x00000000000009b9       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(task_initialize.o)
+ .ARM.attributes
+                0x00000000000009ec       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_dormant.o)
+ .ARM.attributes
+                0x0000000000000a1f       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_ready.o)
+ .ARM.attributes
+                0x0000000000000a52       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imalloc.o)
+ .ARM.attributes
+                0x0000000000000a85       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(ifree.o)
+ .ARM.attributes
+                0x0000000000000ab8       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(init_imalloc.o)
+ .ARM.attributes
+                0x0000000000000aeb       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_startup.o)
+ .ARM.attributes
+                0x0000000000000b1e       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(devmgr_cleanup.o)
+ .ARM.attributes
+                0x0000000000000b51       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(initdevio.o)
+ .ARM.attributes
+                0x0000000000000b84       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(finishdevio.o)
+ .ARM.attributes
+                0x0000000000000bb7       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(close_device.o)
+ .ARM.attributes
+                0x0000000000000bea       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(opncbtbl.o)
+ .ARM.attributes
+                0x0000000000000c1d       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(reqcbtbl.o)
+ .ARM.attributes
+                0x0000000000000c50       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(resource_control_block.o)
+ .ARM.attributes
+                0x0000000000000c83       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(dissuscnt.o)
+ .ARM.attributes
+                0x0000000000000cb6       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(searchfreearea.o)
+ .ARM.attributes
+                0x0000000000000ce9       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(appendfreearea.o)
+ .ARM.attributes
+                0x0000000000000d1c       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removefreeque.o)
+ .ARM.attributes
+                0x0000000000000d4f       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(insertareaque.o)
+ .ARM.attributes
+                0x0000000000000d82       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(removeareaque.o)
+ .ARM.attributes
+                0x0000000000000db5       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(imacb.o)
+ .ARM.attributes
+                0x0000000000000de8       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_get_tid.o)
+ .ARM.attributes
+                0x0000000000000e1b       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_sem.o)
+ .ARM.attributes
+                0x0000000000000e4e       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_sem.o)
+ .ARM.attributes
+                0x0000000000000e81       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delopncb.o)
+ .ARM.attributes
+                0x0000000000000eb4       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(delreqcb.o)
+ .ARM.attributes
+                0x0000000000000ee7       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(chkopen.o)
+ .ARM.attributes
+                0x0000000000000f1a       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_ok.o)
+ .ARM.attributes
+                0x0000000000000f4d       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_delete.o)
+ .ARM.attributes
+                0x0000000000000f80       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_make_wait.o)
+ .ARM.attributes
+                0x0000000000000fb3       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_change_priority.o)
+ .ARM.attributes
+                0x0000000000000fe6       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(gcb_top_of_wait_queue.o)
+ .ARM.attributes
+                0x0000000000001019       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_wait.o)
+ .ARM.attributes
+                0x000000000000104c       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(make_non_ready.o)
+ .ARM.attributes
+                0x000000000000107f       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(wait_release_tmout.o)
+ .ARM.attributes
+                0x00000000000010b2       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_monitor.o)
+ .ARM.attributes
+                0x00000000000010e5       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putstring.o)
+ .ARM.attributes
+                0x0000000000001118       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_exit.o)
+ .ARM.attributes
+                0x000000000000114b       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_printf.o)
+ .ARM.attributes
+                0x000000000000117e       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(SEGGER_RTT.o)
+ .ARM.attributes
+                0x00000000000011b1       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtm.a(tm_putchar.o)
+ .ARM.attributes
+                0x00000000000011e4       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memset.o)
+ .ARM.attributes
+                0x0000000000001217       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(memcpy.o)
+ .ARM.attributes
+                0x000000000000124a       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlock.o)
+ .ARM.attributes
+                0x000000000000127d       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(munlock.o)
+ .ARM.attributes
+                0x00000000000012b0       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(createmlock.o)
+ .ARM.attributes
+                0x00000000000012e3       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(deletemlock.o)
+ .ARM.attributes
+                0x0000000000001316       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtk.a(mlocktmo.o)
+ .ARM.attributes
+                0x0000000000001349       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_cre_flg.o)
+ .ARM.attributes
+                0x000000000000137c       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_del_flg.o)
+ .ARM.attributes
+                0x00000000000013af       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_set_flg.o)
+ .ARM.attributes
+                0x00000000000013e2       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libtkernel.a(tk_wai_flg.o)
+ .ARM.attributes
+                0x0000000000001415       0x33 C:/Users/ergop/Documents/github/study/2019/tcar_sample/Libraries/libstr.a(strncpy.o)
+
+.debug_frame    0x0000000000000000       0x2c
+ .debug_frame   0x0000000000000000       0x2c Output/tcar_sample Debug/Obj/usermain.o
+
+.debug_ranges   0x0000000000000000       0x10
+ .debug_ranges  0x0000000000000000       0x10 Output/tcar_sample Debug/Obj/usermain.o
