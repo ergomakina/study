@@ -10,3 +10,6 @@ print(G.nodes())
 
 for v in G.neighbors(0):
     print(v)
+    for i in G.neighbors(v):
+        if i != 0:
+            print(i)
