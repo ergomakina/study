@@ -7,7 +7,7 @@
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
  </FrameBufferWindow>
  <Memory1>
-  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="tcar_sample" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="tcar_sample" radix="16" sizeText="" addressText="0x0"/>
  </Memory1>
  <Memory2>
   <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="tcar_sample" radix="16" sizeText="" addressText=""/>
@@ -54,9 +54,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" useBinaryEdit="0" left="0" path="Source/usermain.c" selected="1" top="0" codecName="UTF-8"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5" useTextEdit="1" useBinaryEdit="0" left="0" path="Source/usermain.c" selected="1" top="2" codecName="UTF-8"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="Source/inittask_def.c" selected="0" top="33" codecName="UTF-8"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="Source/inittask_def.h" selected="0" top="35" codecName="UTF-8"/>
  </Files>
- <ARMCrossStudioWindow activeProject="tcar_sample" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="tcar_sample" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

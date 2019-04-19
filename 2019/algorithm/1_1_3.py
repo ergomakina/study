@@ -3,7 +3,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # load the data of a graph
-G = nx.read_edgelist(r'C:\Users\ergop\Documents\Development\GitHub\study\2019\algorithm\test.edgelist',nodetype=int)
+# G = nx.read_edgelist(r'C:\Users\ergop\Documents\Development\GitHub\study\2019\algorithm\test.edgelist',nodetype=int)
+G = nx.read_edgelist(r'C:\Users\ergop\Documents\github\study\2019\algorithm\test.edgelist',nodetype=int)
 
 # display the graph
 node_list = G.nodes()
