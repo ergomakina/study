@@ -1,7 +1,7 @@
 let filter f xs =
   let rec myfilter result mylist=
     match mylist with
-      hd::tl when hd > 2 -> myfilter (result @ hd ) tl
+      hd::tl when hd > 2 -> myfilter (result @ [hd] ) tl
     | hd::tl -> myfilter result tl
     | [] -> result
   in myfilter [] xs;;
