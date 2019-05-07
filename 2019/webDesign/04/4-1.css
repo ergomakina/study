@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    width: 200px;
+    background-color: yellow;
+}
