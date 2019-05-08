@@ -15,11 +15,8 @@ let t =
   );;
 
 (* 要素の最小値 *)
-let min_bst t min_num=
-  let rec rec_min_bst t min_num =
+let rec min_bst t =
     match t with
-      Node(v, t1,t2) ->
-        if v < min_num then (count_bst t1) or (count_bst t2)
-        else true
+      Node(_, Node(v, _, _), Leaf) -> v
     | Leaf -> 0
-  in rec_min_bst t min_num;;
+  in min_bst t;;
