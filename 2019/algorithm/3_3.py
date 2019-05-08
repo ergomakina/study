@@ -25,9 +25,20 @@ def my_extract_min(D, X):
     
     return arg_min
 
+# 始点から各点への最短経路長を出力する関数
+def get_length(G,start):
+
+    return length
 
 import matplotlib.pyplot as plt
 # グラフの描画
-nx.draw_networkx(G)
+# nx.draw_networkx(G)
 # 表示
-plt.show()
+# plt.show()
+
+# display the graph
+node_list = G.nodes()
+print("node_list: " , node_list)
+
+# 訪問済みノード
+target_nodes = set()
