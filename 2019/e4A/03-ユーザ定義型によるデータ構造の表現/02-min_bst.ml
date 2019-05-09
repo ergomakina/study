@@ -17,6 +17,8 @@ let t =
 (* 要素の最小値 *)
 let rec min_bst t =
     match t with
-      Node(_, Node(v, _, _), Leaf) -> v
+    Node(v, _, _) -> v
+    | Node(_, Node(v, _, _), Leaf) -> v
+    | Node(_, Leaf, Node(v, _, _)) -> v
     | Leaf -> 0
   in min_bst t;;
