@@ -1,9 +1,9 @@
 import networkx as nx
 
-G = nx.read_weighted_edgelist(r'C:\Users\ergop\Documents\github\study\2019\algorithm\dij.edgelist',nodetype=int)
+# G = nx.read_weighted_edgelist(r'C:\Users\ergop\Documents\github\study\2019\algorithm\dij.edgelist',nodetype=int)
+G = nx.read_weighted_edgelist(r'C:\Users\ergop\Documents\Development\GitHub\study\2019\algorithm\dij.edgelist',nodetype=int)
 
 D = [float('inf')] * nx.number_of_nodes(G)
-
 # print(G.edges())
 # print(G.nodes[1, 2]['weight'])
 
@@ -42,3 +42,8 @@ print("node_list: " , node_list)
 
 # 訪問済みノード
 target_nodes = set()
+for v in G.neighbors(0):
+    target_nodes.add(v)
+print([p for p in nx.all_simple_paths(G,0,5)])
+
+print(nx.shortest_path(G,source=0))
