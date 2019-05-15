@@ -114,6 +114,7 @@ void led_task(INT stacd, void *exinf){
                 }
             }
         }
+        tk_dly_tsk(100);
     }
 }
 
@@ -132,8 +133,8 @@ EXPORT INT usermain(void){
     led_ctsk.stksz = 1024;
 
     led_tskid = tk_cre_tsk(&led_ctsk);
-    bz_tskid = tk_cre_tsk( &bz_ctsk );
     tk_sta_tsk(led_tskid,0);
+    bz_tskid = tk_cre_tsk( &bz_ctsk );
     tk_sta_tsk(bz_tskid, 0);
 
     tk_slp_tsk(TMO_FEVR);
