@@ -77,6 +77,8 @@ void bz_task(INT stacd, void *exinf){
       *(_UW*)(MT2RUN) |= (1<<0 | 1<<2); //on
       tk_dly_tsk(2000);
       *(_UW*)(MT2RUN) &= ~(1<<0 | 1<<2); //off
+    }else{
+      tk_dly_tsk(100);
     }
   }
 
