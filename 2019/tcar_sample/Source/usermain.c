@@ -8,8 +8,10 @@
 #include <libstr.h>
 #include <device/gpiodrv.h>
 
-#define PE_DATA 0x400C0400
-#define PE_CR 0x400C0404
+#define PE_DATA  0x400C0400
+#define PE_CR    0x400C0404
+#define PECR     0x400C0404
+#define PEIE     0x400C0438
 
 #define PA_DATA  0x400C0000
 #define PACR     0x400C0004
@@ -52,96 +54,230 @@
 #define ADAREG06 (UNIT_A_BASE+0x4C)
 #define ADAREG07 (UNIT_A_BASE+0x50)
 
-// 04課題３ マルチタスク
-void bz_task(INT stacd, void *exinf){
-  // SW3
-  UW sw3;
-  *(_UW*)(PACR) &= ~(1<<3); // GPIO portA
-  *(_UW*)(PAIE) |= (1<<3); // GPIO portA
+// 05課題２　イベントフラグ
+ void sw_task(INT stacd){
+  INT sw_flgid = stacd;
+  UW sw3, sw4;
+  while (1){
+    sw3 = *(_UW*)PA_DATA & (1<<3);
+    sw4 = *(_UW*)PE_DATA & (1<<7);
+    if(sw3 == 0){
+      tk_set_flg(sw_flgid, (1<<0));
+    }
+    if(sw4 == 0){
+      tk_set_flg(sw_flgid, (1<<1));
+    }
+    tk_dly_tsk(100);
+  }
+}
+void led_task(INT stacd){
+  INT sw_flgid = stacd;
+  UINT flg;
 
-  *(_UW*)(PHCR) |= (1<<2);
+  //LEDの出力許可
+  *(_UW*)(PE_CR) |= (1<<2); //right
+  *(_UW*)(PE_CR) |= (1<<3); //left
+
+  while(1){
+    tk_wai_flg(sw_flgid, (1<<0)|(1<<1), (TWF_ORW | TWF_BITCLR), &flg, TMO_FEVR);
+    if(flg & (1<<0)){
+      *(_UW*)(PE_DATA) |= (1<<3); //left led on
+      tk_dly_tsk(1000);
+      *(_UW*)(PE_DATA) &= ~(1<<3); //left led off
+    } else {
+    // if(flg & (1<<1)){
+      *(_UW*)(PE_DATA) |= (1<<2); //right led on
+      tk_dly_tsk(2000);
+      *(_UW*)(PE_DATA) &= ~(1<<2); //right led off
+    }
+  }
+}
+EXPORT INT usermain(void){
+  //GPIOポートHの初期化
+  *(_UW*)(PHFR3) |= (1<<2);
   *(_UW*)(PHIE) &= ~(1<<2);
   *(_UW*)(PHCR) |= (1<<2);
 
-  *(_UW*)(MT2EN) |= (1<<7|1<<0);
-  *(_UW*)(MT2IGOCR) |= (1<<1);
-  *(_UW*)(MT2IGOCR) &= ~(1<<5);
-  *(_UW*)(MT2IGCR) &= ~(1<<6|1<<3|1<<2|1<<1|1<<0);
-  *(_UW*)(MT2IGRG2) = 1;
-  *(_UW*)(MT2IGRG3) = 9000;
-  *(_UW*)(MT2IGRG4) = 18000;
+  //GPIOポートAの初期化
+  *(_UW*)PACR &= ~(1<<3); 
+  *(_UW*)PAIE |= (1<<3);
+  //GPIOポートEの初期化
+  *(_UW*)PECR &= ~(1<<7); 
+  *(_UW*)PEIE |= (1<<7);
 
-  while (1){
-    sw3 = *(_UW*)(PA_DATA) & (1<<3);
-    if(sw3 == 0){
-      *(_UW*)(MT2RUN) |= (1<<0 | 1<<2); //on
-      tk_dly_tsk(2000);
-      *(_UW*)(MT2RUN) &= ~(1<<0 | 1<<2); //off
-    }else{
-      tk_dly_tsk(100);
-    }
-  }
+  // イベントフラグの作成
+  T_CFLG event_ctsk;
+  ID event_tskid;
+  event_ctsk.flgatr = TA_WMUL | TA_TFIFO;
+  event_ctsk.iflgptn = 0;
+  event_tskid = tk_cre_flg(&event_ctsk);
+  
+  T_CTSK led_ctsk;
+  ID     led_tskid;
+  led_ctsk.tskatr = TA_HLNG | TA_RNG0;
+  led_ctsk.task   = led_task;
+  led_ctsk.itskpri = 10;
+  led_ctsk.stksz = 1024;
+  led_tskid = tk_cre_tsk(&led_ctsk);
+  tk_sta_tsk(led_tskid, event_tskid);
+  
+  T_CTSK sw_ctsk;
+  ID     sw_tskid;
+  sw_ctsk.tskatr = TA_HLNG | TA_RNG0;
+  sw_ctsk.task   = sw_task;
+  sw_ctsk.itskpri = 10;
+  sw_ctsk.stksz = 1024;
+  sw_tskid = tk_cre_tsk(&sw_ctsk);
+  tk_sta_tsk(sw_tskid, event_tskid);
 
-  tk_ext_tsk(); //タスク終了
-}
-void led_task(INT stacd, void *exinf){
-    //初期状態ではGPIOポートHが接続されている
-    //一応...GPIOポートHの初期化
-    *(_UW*)(PHFR3) |= (1<<2);
-    *(_UW*)(PHIE) &= ~(1<<2);
-    *(_UW*)(PHCR) |= (1<<2);
-
-    //照度センサからの端子には、初期状態でAINA3の信号が割り当てられている
-    //照度センサからの信号は、A/Dコンバータ Aユニットのアナログ入力AINA0に接続されている
-
-    //ADAの初期化
-    *(_UW*)(ADACLK) = 0x01;
-    *(_UW*)(ADAMOD1) = 0x80;
-    tk_dly_tsk(0.003);
-    *(_UW*)(ADAMOD3) = 0x01;
-    *(_UW*)(ADAMOD4) = 0x00;
-
-    //LEDのPE3出力許可
-    *(_UW*)(PE_CR) |= (1<<3);
-
-
-    while(1){
-        *(_UW*)(ADAMOD0) = 0x01; // A/D変換開始
-        while(*(_UW*)(ADAMOD5) != 0x00){
-            if(*(_UW*)(ADAMOD5) == 0x01){
-                if(*(_UW*)(ADAREG00) < 1000000000){
-                     *(_UW*)(PE_DATA) |= (1<<3); //high出力
-                }else{
-                    *(_UW*)(PE_DATA) &= ~(1<<3); //low出力
-                }
-            }
-        }
-        tk_dly_tsk(100);
-    }
+  tk_slp_tsk(TMO_FEVR);
+  return 0;
 }
 
-EXPORT INT usermain(void){
-    T_CTSK  bz_ctsk;
-    ID      bz_tskid;
-    T_CTSK led_ctsk;
-    ID     led_tskid;
-    bz_ctsk.tskatr  = TA_HLNG | TA_RNG0;
-    bz_ctsk.task = bz_task;
-    bz_ctsk.itskpri = 10;
-    bz_ctsk.stksz = 1024;
-    led_ctsk.tskatr = TA_HLNG | TA_RNG0;
-    led_ctsk.task   = led_task;
-    led_ctsk.itskpri = 10;
-    led_ctsk.stksz = 1024;
+// 05課題１
+//  void sw_task(INT stacd){
+//   UW sw3;
+//   while (1){
+//     sw3 = *(_UW*)PA_DATA & (1<<3);
+//     if(sw3 == 0){
+//       tk_wup_tsk(stacd);
+//     }
+//     tk_dly_tsk(100);
+//   }
+// }
+// void led_task(void){
+//   //LEDのPE3出力許可
+//   *(_UW*)(PE_CR) |= (1<<3);
 
-    led_tskid = tk_cre_tsk(&led_ctsk);
-    tk_sta_tsk(led_tskid,0);
-    bz_tskid = tk_cre_tsk( &bz_ctsk );
-    tk_sta_tsk(bz_tskid, 0);
+//   while(1){
+//     tk_slp_tsk(TMO_FEVR);
+//     *(_UW*)(PE_DATA) |= (1<<3); //on
+//     tk_dly_tsk(1000);
+//     *(_UW*)(PE_DATA) &= ~(1<<3); //off
+//   }
+// }
+// EXPORT INT usermain(void){
+//   //GPIOポートHの初期化
+//   *(_UW*)(PHFR3) |= (1<<2);
+//   *(_UW*)(PHIE) &= ~(1<<2);
+//   *(_UW*)(PHCR) |= (1<<2);
 
-    tk_slp_tsk(TMO_FEVR);
-    return 0;
-}
+//   //GPIOポートAの初期化
+//   *(_UW*)PACR &= ~(1<<3); 
+//   *(_UW*)PAIE |= (1<<3);
+  
+//   T_CTSK led_ctsk;
+//   ID     led_tskid;
+//   led_ctsk.tskatr = TA_HLNG | TA_RNG0;
+//   led_ctsk.task   = led_task;
+//   led_ctsk.itskpri = 10;
+//   led_ctsk.stksz = 1024;
+//   led_tskid = tk_cre_tsk(&led_ctsk);
+//   tk_sta_tsk(led_tskid,0);
+  
+//   T_CTSK sw_ctsk;
+//   ID     sw_tskid;
+//   sw_ctsk.tskatr = TA_HLNG | TA_RNG0;
+//   sw_ctsk.task   = sw_task;
+//   sw_ctsk.itskpri = 10;
+//   sw_ctsk.stksz = 1024;
+//   sw_tskid = tk_cre_tsk(&sw_ctsk);
+//   tk_sta_tsk(sw_tskid,led_tskid);
+
+//   tk_slp_tsk(TMO_FEVR);
+//   return 0;
+// }
+
+// 04課題３ マルチタスク
+// void bz_task(INT stacd, void *exinf){
+//   // SW3
+//   UW sw3;
+//   *(_UW*)(PACR) &= ~(1<<3); // GPIO portA
+//   *(_UW*)(PAIE) |= (1<<3); // GPIO portA
+
+//   *(_UW*)(PHCR) |= (1<<2);
+//   *(_UW*)(PHIE) &= ~(1<<2);
+//   *(_UW*)(PHCR) |= (1<<2);
+
+//   *(_UW*)(MT2EN) |= (1<<7|1<<0);
+//   *(_UW*)(MT2IGOCR) |= (1<<1);
+//   *(_UW*)(MT2IGOCR) &= ~(1<<5);
+//   *(_UW*)(MT2IGCR) &= ~(1<<6|1<<3|1<<2|1<<1|1<<0);
+//   *(_UW*)(MT2IGRG2) = 1;
+//   *(_UW*)(MT2IGRG3) = 9000;
+//   *(_UW*)(MT2IGRG4) = 18000;
+
+//   while (1){
+//     sw3 = *(_UW*)(PA_DATA) & (1<<3);
+//     if(sw3 == 0){
+//       *(_UW*)(MT2RUN) |= (1<<0 | 1<<2); //on
+//       tk_dly_tsk(2000);
+//       *(_UW*)(MT2RUN) &= ~(1<<0 | 1<<2); //off
+//     }else{
+//       tk_dly_tsk(100);
+//     }
+//   }
+
+//   tk_ext_tsk(); //タスク終了
+// }
+// void led_task(INT stacd, void *exinf){
+//     //初期状態ではGPIOポートHが接続されている
+//     //一応...GPIOポートHの初期化
+//     *(_UW*)(PHFR3) |= (1<<2);
+//     *(_UW*)(PHIE) &= ~(1<<2);
+//     *(_UW*)(PHCR) |= (1<<2);
+
+//     //照度センサからの端子には、初期状態でAINA3の信号が割り当てられている
+//     //照度センサからの信号は、A/Dコンバータ Aユニットのアナログ入力AINA0に接続されている
+
+//     //ADAの初期化
+//     *(_UW*)(ADACLK) = 0x01;
+//     *(_UW*)(ADAMOD1) = 0x80;
+//     tk_dly_tsk(0.003);
+//     *(_UW*)(ADAMOD3) = 0x01;
+//     *(_UW*)(ADAMOD4) = 0x00;
+
+//     //LEDのPE3出力許可
+//     *(_UW*)(PE_CR) |= (1<<3);
+
+
+//     while(1){
+//         *(_UW*)(ADAMOD0) = 0x01; // A/D変換開始
+//         while(*(_UW*)(ADAMOD5) != 0x00){
+//             if(*(_UW*)(ADAMOD5) == 0x01){
+//                 if(*(_UW*)(ADAREG00) < 1000000000){
+//                      *(_UW*)(PE_DATA) |= (1<<3); //high出力
+//                 }else{
+//                     *(_UW*)(PE_DATA) &= ~(1<<3); //low出力
+//                 }
+//             }
+//         }
+//         tk_dly_tsk(100);
+//     }
+// }
+
+// EXPORT INT usermain(void){
+//     T_CTSK  bz_ctsk;
+//     ID      bz_tskid;
+//     T_CTSK led_ctsk;
+//     ID     led_tskid;
+//     bz_ctsk.tskatr  = TA_HLNG | TA_RNG0;
+//     bz_ctsk.task = bz_task;
+//     bz_ctsk.itskpri = 10;
+//     bz_ctsk.stksz = 1024;
+//     led_ctsk.tskatr = TA_HLNG | TA_RNG0;
+//     led_ctsk.task   = led_task;
+//     led_ctsk.itskpri = 10;
+//     led_ctsk.stksz = 1024;
+
+//     led_tskid = tk_cre_tsk(&led_ctsk);
+//     tk_sta_tsk(led_tskid,0);
+//     bz_tskid = tk_cre_tsk( &bz_ctsk );
+//     tk_sta_tsk(bz_tskid, 0);
+
+//     tk_slp_tsk(TMO_FEVR);
+//     return 0;
+// }
 
 // 04課題２
 // void led_task(INT stacd, void *exinf){
