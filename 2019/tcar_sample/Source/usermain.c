@@ -54,7 +54,7 @@
 #define ADAREG06 (UNIT_A_BASE+0x4C)
 #define ADAREG07 (UNIT_A_BASE+0x50)
 
-// 05課題２　イベントフラグ
+// 05課題３ 複数タスクからのイベントフラグ
  void sw_task(INT stacd){
   INT sw_flgid = stacd;
   UW sw3, sw4;
@@ -70,22 +70,28 @@
     tk_dly_tsk(100);
   }
 }
-void led_task(INT stacd){
+void led_left_task(INT stacd){
   INT sw_flgid = stacd;
   UINT flg;
-
   //LEDの出力許可
-  *(_UW*)(PE_CR) |= (1<<2); //right
   *(_UW*)(PE_CR) |= (1<<3); //left
-
   while(1){
-    tk_wai_flg(sw_flgid, (1<<0)|(1<<1), (TWF_ORW | TWF_BITCLR), &flg, TMO_FEVR);
+    tk_wai_flg(sw_flgid, (1<<0), (TWF_ORW | TWF_BITCLR), &flg, TMO_FEVR);
     if(flg & (1<<0)){
       *(_UW*)(PE_DATA) |= (1<<3); //left led on
       tk_dly_tsk(1000);
       *(_UW*)(PE_DATA) &= ~(1<<3); //left led off
-    } else {
-    // if(flg & (1<<1)){
+    }
+  }
+}
+void led_right_task(INT stacd){
+  INT sw_flgid = stacd;
+  UINT flg;
+  //LEDの出力許可
+  *(_UW*)(PE_CR) |= (1<<2); //right
+  while(1){
+    tk_wai_flg(sw_flgid, (1<<1), (TWF_ORW | TWF_BITCLR), &flg, TMO_FEVR);
+    if(flg & (1<<1)){
       *(_UW*)(PE_DATA) |= (1<<2); //right led on
       tk_dly_tsk(2000);
       *(_UW*)(PE_DATA) &= ~(1<<2); //right led off
@@ -112,14 +118,23 @@ EXPORT INT usermain(void){
   event_ctsk.iflgptn = 0;
   event_tskid = tk_cre_flg(&event_ctsk);
   
-  T_CTSK led_ctsk;
-  ID     led_tskid;
-  led_ctsk.tskatr = TA_HLNG | TA_RNG0;
-  led_ctsk.task   = led_task;
-  led_ctsk.itskpri = 10;
-  led_ctsk.stksz = 1024;
-  led_tskid = tk_cre_tsk(&led_ctsk);
-  tk_sta_tsk(led_tskid, event_tskid);
+  T_CTSK led_left_ctsk;
+  ID     led_left_tskid;
+  led_left_ctsk.tskatr = TA_HLNG | TA_RNG0;
+  led_left_ctsk.task   = led_left_task;
+  led_left_ctsk.itskpri = 10;
+  led_left_ctsk.stksz = 1024;
+  led_left_tskid = tk_cre_tsk(&led_left_ctsk);
+  tk_sta_tsk(led_left_tskid, event_tskid);
+
+  T_CTSK led_right_ctsk;
+  ID     led_right_tskid;
+  led_right_ctsk.tskatr = TA_HLNG | TA_RNG0;
+  led_right_ctsk.task   = led_right_task;
+  led_right_ctsk.itskpri = 10;
+  led_right_ctsk.stksz = 1024;
+  led_right_tskid = tk_cre_tsk(&led_right_ctsk);
+  tk_sta_tsk(led_right_tskid, event_tskid);
   
   T_CTSK sw_ctsk;
   ID     sw_tskid;
@@ -133,6 +148,86 @@ EXPORT INT usermain(void){
   tk_slp_tsk(TMO_FEVR);
   return 0;
 }
+
+// 05課題２　イベントフラグ
+//  void sw_task(INT stacd){
+//   INT sw_flgid = stacd;
+//   UW sw3, sw4;
+//   while (1){
+//     sw3 = *(_UW*)PA_DATA & (1<<3);
+//     sw4 = *(_UW*)PE_DATA & (1<<7);
+//     if(sw3 == 0){
+//       tk_set_flg(sw_flgid, (1<<0));
+//     }
+//     if(sw4 == 0){
+//       tk_set_flg(sw_flgid, (1<<1));
+//     }
+//     tk_dly_tsk(100);
+//   }
+// }
+// void led_task(INT stacd){
+//   INT sw_flgid = stacd;
+//   UINT flg;
+
+//   //LEDの出力許可
+//   *(_UW*)(PE_CR) |= (1<<2); //right
+//   *(_UW*)(PE_CR) |= (1<<3); //left
+
+//   while(1){
+//     tk_wai_flg(sw_flgid, (1<<0)|(1<<1), (TWF_ORW | TWF_BITCLR), &flg, TMO_FEVR);
+//     if(flg & (1<<0)){
+//       *(_UW*)(PE_DATA) |= (1<<3); //left led on
+//       tk_dly_tsk(1000);
+//       *(_UW*)(PE_DATA) &= ~(1<<3); //left led off
+//     } else {
+//     // if(flg & (1<<1)){
+//       *(_UW*)(PE_DATA) |= (1<<2); //right led on
+//       tk_dly_tsk(2000);
+//       *(_UW*)(PE_DATA) &= ~(1<<2); //right led off
+//     }
+//   }
+// }
+// EXPORT INT usermain(void){
+//   //GPIOポートHの初期化
+//   *(_UW*)(PHFR3) |= (1<<2);
+//   *(_UW*)(PHIE) &= ~(1<<2);
+//   *(_UW*)(PHCR) |= (1<<2);
+
+//   //GPIOポートAの初期化
+//   *(_UW*)PACR &= ~(1<<3); 
+//   *(_UW*)PAIE |= (1<<3);
+//   //GPIOポートEの初期化
+//   *(_UW*)PECR &= ~(1<<7); 
+//   *(_UW*)PEIE |= (1<<7);
+
+//   // イベントフラグの作成
+//   T_CFLG event_ctsk;
+//   ID event_tskid;
+//   event_ctsk.flgatr = TA_WMUL | TA_TFIFO;
+//   event_ctsk.iflgptn = 0;
+//   event_tskid = tk_cre_flg(&event_ctsk);
+  
+//   T_CTSK led_ctsk;
+//   ID     led_tskid;
+//   led_ctsk.tskatr = TA_HLNG | TA_RNG0;
+//   led_ctsk.task   = led_task;
+//   led_ctsk.itskpri = 10;
+//   led_ctsk.stksz = 1024;
+//   led_tskid = tk_cre_tsk(&led_ctsk);
+//   tk_sta_tsk(led_tskid, event_tskid);
+  
+//   T_CTSK sw_ctsk;
+//   ID     sw_tskid;
+//   sw_ctsk.tskatr = TA_HLNG | TA_RNG0;
+//   sw_ctsk.task   = sw_task;
+//   sw_ctsk.itskpri = 10;
+//   sw_ctsk.stksz = 1024;
+//   sw_tskid = tk_cre_tsk(&sw_ctsk);
+//   tk_sta_tsk(sw_tskid, event_tskid);
+
+//   tk_slp_tsk(TMO_FEVR);
+//   return 0;
+// }
 
 // 05課題１
 //  void sw_task(INT stacd){
