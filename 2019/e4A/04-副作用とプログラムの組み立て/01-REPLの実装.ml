@@ -66,3 +66,6 @@ in let m = (eval(parse (name)))
 in print_int(m); print_string("\n")
 done;;
   
+(* 
+#use "01-REPLの実装.ml";;
+*)
