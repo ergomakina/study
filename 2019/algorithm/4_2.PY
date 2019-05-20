@@ -28,6 +28,31 @@ def my_Dijikstara2(G,source):
         
     return D
 
+def my_Dijikstra2(G,source):
+    X=set(G.nodes)
+    D=[float('inf')] * nx.number_of_nodes(G)
+    D[source]=0
+    # print(D)
+    Q=[]
+    h.heappush(Q,(0,source))#初期位置ヒープ
+    
+    
+    while X:
+        min_value , argmin_index =h.heappop(Q)
+        if min_value>D[argmin_index]:
+            continue
+        X.remove(argmin_index)
+        for v in G.neighbors(argmin_index):
+            if v in X:
+                new_distance=D[argmin_index]+G.edges[argmin_index,v]['weight']
+                if D[v]>new_distance:
+                    h.heappush(Q,((new_distance),v))
+                    D[v]=new_distance
+                    
+                    
+    return D
+        
+
 
 list=[]
 
