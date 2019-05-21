@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "fcntl.h": "c",
-        "ostream": "c",
-        "xlocnum": "c",
-        "istream": "c",
-        "queue.h": "c"
-    }
-}

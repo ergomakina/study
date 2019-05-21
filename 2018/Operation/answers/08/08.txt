@@ -1,3 +1,0 @@
-1. See philosopher_number.c and philosopher_trylock.c
-
-2. See philosopher_nfork.c

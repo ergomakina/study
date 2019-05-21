@@ -1,1 +1,0 @@
-let length mylist = List.fold_left (fun acc x -> acc + 1) 0 mylist

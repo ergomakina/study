@@ -1,3 +1,0 @@
-1. See filecopy.c and filecopy2.c
-
-2. omitted

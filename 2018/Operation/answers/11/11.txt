@@ -1,1 +1,0 @@
-1. See mytail2.c
